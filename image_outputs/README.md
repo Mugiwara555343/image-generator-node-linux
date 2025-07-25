@@ -1,4 +1,4 @@
-## Prompt Showcase
+## 🗨️ Prompt Showcase
 
 ### 📸 Output Example `ComfyUI_00001_.png`
 
@@ -20,10 +20,11 @@ modern, recent, old, oldest, cartoon, graphic, text, painting, crayon, graphite,
 
 ---
 
-This sample demonstrates the node pipeline from **prompt crafting** â†’ **seed-based generation** â†’ **successful render via LAN** on a GPU-constrained node.  
+This sample demonstrates the node pipeline from **prompt crafting**, **seed-based generation**, **successful render via LAN** on a GPU-constrained node.  
 Image was generated at **1504 — 1024** resolution using:
+- Model/Checkpoint: `novaOrangeXL v110.safetensors`
 - `KSampler`: Euler, 25 steps, CFG = 5.5, seed: `1018923686525644`
 - VAE: Default
 - Denoise: `1.0`
 
-🔧 Powered by ComfyUI running headlessly on Pop!_OS with 8GB VRAM.
+## 🔧 Powered by ComfyUI running headlessly on Pop!_OS with 8GB VRAM.
