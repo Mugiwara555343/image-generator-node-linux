@@ -51,3 +51,49 @@ comfy install               # clones ComfyUI + installs dependencies
 # 4. First-time test
 cd ComfyUI
 python main.py --listen 0.0.0.0 --port 8188
+```
+---
+
+## 🛠️ Troubleshooting 🔧
+
+| Issue | Diagnosis | Fix |
+|-------|------------|-----|
+| ComfyUI won’t launch | CUDA driver mismatch | Match driver version with `apt install nvidia-utils-XXX` |
+| GUI inaccessible | Firewall or bind restrictions | Use `--listen 0.0.0.0`, open port 8188 in UFW |
+| Out of VRAM errors | SDXL + LoRA memory spike | Lower batch size or switch to 512² resolution |
+| Permission denied | Running on boot fails | Ensure `start-comfy.sh` has `chmod +x` and correct user path |
+
+---
+
+## 🧠 Prompt Lab Philosophy
+
+I treat prompts like iterative experiments:
+- Start with a strong base (e.g., “masterpiece, high resolution, dappled sunlight…”)
+- Add weights: `(dappled sunlight:1.2)` to emphasize light
+- Use negative prompts aggressively to avoid artifacts
+- Vary seed values to explore visual variation
+- Collect best outputs and refine
+
+---
+
+## 🚢 Docker Roadmap (Upcoming)
+
+Soon, this project will include a Docker version:
+- Runs ComfyUI in a contained environment  
+- Mount model files from host as volumes  
+- Exposes port 8188 for remote access  
+- Supports scaling across multiple machines easily
+
+Contributions welcome—if Docker expertise strikes you, PRs are encouraged!
+
+---
+
+## 📜 License & Acknowledgements
+
+Licensed under MIT License.  
+Built on [ComfyUI](https://github.com/comfyanonymous/ComfyUI), open-source node-based Stable Diffusion tool :contentReference[oaicite:22]{index=22}  
+Model files downloaded via HuggingFace and CivitAI (check each model’s license).
+
+---
+
+
