@@ -5,7 +5,7 @@
 **Prompt:**
 
 ```
-masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, (dappled sunlight:1.2), rin light, backlit, dramatic shadow, light, elf, elf ears, long blonde hair, blue eyes, parted lips, medium breasts, thin white dress, see through dress, forest, flowers, white butterfly, looking at viewer, leaning side against tree, vines, green, arms, upper body, close-up, dutch angle, shiny skin, BREAK, dramatic shadow, depth of field, vignetting, volumetric lighting
+masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, (dappled sunlight:1.2), rin light, backlit, dramatic shadow, light, girl, long blonde hair, blue eyes, parted lips, medium breasts, thin white dress, see through dress, forest, flowers, white butterfly, looking at viewer, leaning side against tree, vines, green, arms, upper body, close-up, dutch angle, shiny skin, BREAK, dramatic shadow, depth of field, vignetting, volumetric lighting
 ```
 
 **Negative Prompt:**
@@ -16,7 +16,7 @@ modern, recent, old, oldest, cartoon, graphic, text, painting, crayon, graphite,
 
 **✨ Image Output:**
 
-![ComfyUI_00001_](../image_outputs/ComfyUI_00001_.png)
+![ComfyUI_00001_](../image_outputs/ComfyUI_00003_.png)
 
 ---
 
