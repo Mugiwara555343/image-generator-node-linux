@@ -27,4 +27,4 @@ Image was generated at **1504 — 1024** resolution using:
 - VAE: Default
 - Denoise: `1.0`
 
-## 🔧 Powered by ComfyUI running headlessly on Pop!_OS with 8GB VRAM.
+## 🔧 Powered by ComfyUI running on Pop!_OS with 8GB VRAM.
